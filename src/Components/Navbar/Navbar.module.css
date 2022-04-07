@@ -1,0 +1,42 @@
+.logo{
+    margin-right: 2rem;
+    margin-left: 0rem;
+    height: 25px;
+}
+.logo:hover{
+cursor: pointer;
+}
+.nav_routes{
+    margin-right: 100px;
+}
+.nav_extra{
+    margin-left: 0.1rem;
+    margin-right: 0.2rem;
+}
+.nav_extra  span{
+    border: none;
+    background-color: #28328c;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.5rem;
+    padding: 2px 8px;
+    letter-spacing: .3px;
+}
+
+@media all  and (max-width: 1110px){
+    .nav_routes{
+        display: none;
+    }
+    .nav_logo{
+        margin-right: 200px;
+    }
+    
+}
+@media all  and (max-width: 900px){
+    .nav_extra{
+        display: none;
+    }
+    .nav_logo{
+        margin-right: 15%;
+    }
+}

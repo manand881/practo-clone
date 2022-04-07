@@ -1,0 +1,11 @@
+
+.img{
+    width: 50%;
+    margin-top: 10px;
+}
+@media all  and (max-width:500px) {
+    .img{
+        width: 70%;
+        margin-top: 10px;
+    }
+}

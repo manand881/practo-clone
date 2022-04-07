@@ -1,0 +1,28 @@
+.img1{ 
+    width: 200px;
+    margin-bottom: 30px;
+}
+.text2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.img2{
+    width: 45%;
+    height: 110%;
+    position: absolute;
+    top: -30px;
+    right: 50px;
+}
+.know_more{
+    background: white;
+    padding: 11px 20px;
+    font-size: 14px;
+    color: #2d2d33;
+    border-radius: 8px;
+    font-weight: 700;
+    border: none;
+}
+.know_more:hover{
+    cursor: pointer;
+}
