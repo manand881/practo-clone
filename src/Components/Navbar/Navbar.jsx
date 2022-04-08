@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import style from './Navbar.module.css';
 import { useDispatch } from 'react-redux';
 import { isLogin } from '../../Redux/Login/action';
+import { SideNavBar } from './SideNavBar';
 const NavWrapper = styled.div`
     display:flex;
     flex-direction: row;
@@ -18,7 +19,7 @@ const NavWrapper = styled.div`
         width: 110vw;
     }
 `
-const WrapperLink = styled(Link)`
+export const WrapperLink = styled(Link)`
 text-decoration: none;
 color: black;
 margin: 10px;
@@ -105,8 +106,10 @@ export const Navbar = () => {
     const dispatch=useDispatch();
     const [show,setShow]=useState(false);
   return (
+      <>
+      <SideNavBar show={show} setShow={setShow}/>
       <NavWrapper>     
-          <Burger>
+          <Burger onClick={()=>setShow(!show)}>
               <hr />
               <hr />
               <hr />
@@ -134,5 +137,6 @@ export const Navbar = () => {
                 <div onClick={()=>{navigate("/");dispatch(isLogin(false))}}>Logout</div>
             </LoggedInWrapper>
     </NavWrapper>
+      </>
   )
 }
