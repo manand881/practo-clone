@@ -6,72 +6,72 @@ const Footer = () => {
             <div>
                 <h3>Practo</h3>
                 <ul>
-                    <li>About</li>
-                    <li>Blog</li>
-                    <li>Carrers</li>
-                    <li>Press</li>
-                    <li>Contact Us</li>
+                    <li>About</li> <br/>
+                    <li>Blog</li> <br/>
+                    <li>Carrers</li> <br/>
+                    <li>Press</li> <br/>
+                    <li>Contact Us</li> <br/>
                 </ul>
             </div>
             <div>
                 <h3>For patients</h3>
                 <ul>
-                    <li>Search for doctors</li>
-                    <li>Search for clinics</li>
-                    <li>Search for hospitals</li>
-                    <li>Book Diagnostic Tests</li>
-                    <li>Book Full Body Checkups</li>
-                    <li>Practo Plus</li>
-                    <li>Covid Hospital listing</li>
-                    <li>Read health articles</li>
-                    <li>Read about medicines</li>
-                    <li>Practo drive</li>
-                    <li>Health app</li>
+                    <li>Search for doctors</li> <br/>
+                    <li>Search for clinics</li> <br/>
+                    <li>Search for hospitals</li> <br/>
+                    <li>Book Diagnostic Tests</li> <br/>
+                    <li>Book Full Body Checkups</li> <br/>
+                    <li>Practo Plus</li> <br/>
+                    <li>Covid Hospital listing</li> <br/>
+                    <li>Read health articles</li> <br/>
+                    <li>Read about medicines</li> <br/>
+                    <li>Practo drive</li> <br/>
+                    <li>Health app</li> <br/>
                 </ul>
             </div>
             <div>
                 <h3>For doctors</h3>
                 <ul>
-                    <li>Practo Profile</li>
+                    <li>Practo Profile</li> <br/>
                 </ul>
                 <h3>For clinics</h3>
                 <ul>
-                    <li>Ray by Practo</li>
-                    <li>Practo Reach</li>
-                    <li>Ray Tab</li>
-                    <li>Practo Pro</li>
+                    <li>Ray by Practo</li> <br/>
+                    <li>Practo Reach</li> <br/>
+                    <li>Ray Tab</li> <br/>
+                    <li>Practo Pro</li> <br/>
                 </ul>
             </div>
             <div>
                 <h3>For hospitals</h3>
                 <ul>
-                    <li>Insta by Practo</li>
-                    <li>Qikwell by Practo</li>
-                    <li>Practo Profile</li>
-                    <li>Practo Reach</li>
-                    <li>Practo Drive</li>
+                    <li>Insta by Practo</li> <br/>
+                    <li>Qikwell by Practo</li> <br/>
+                    <li>Practo Profile</li> <br/>
+                    <li>Practo Reach</li> <br/>
+                    <li>Practo Drive</li> <br/>
                 </ul>
             </div>
             <div>
                 <h3>More</h3>
                 <ul>
-                    <li>Help</li>
-                    <li>Developers</li>
-                    <li>Privacy Policy</li>
-                    <li>Terms & Conditions</li>
-                    <li>Healthcare Directory</li>
-                    <li>Pracot Health Wiki</li>
-                    <li>Corporate Wellness</li>
+                    <li>Help</li> <br/>
+                    <li>Developers</li> <br/>
+                    <li>Privacy Policy</li> <br/>
+                    <li>Terms & Conditions</li> <br/>
+                    <li>Healthcare Directory</li> <br/>
+                    <li>Pracot Health Wiki</li> <br/>
+                    <li>Corporate Wellness</li> <br/>
                 </ul>
             </div>
             <div>
                 <h3>Social</h3>
                 <ul>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>LinkedIn</li>
-                    <li>Youtube</li>
-                    <li>Github</li>
+                    <li>Facebook</li> <br/>
+                    <li>Twitter</li> <br/>
+                    <li>LinkedIn</li> <br/>
+                    <li>Youtube</li> <br/>
+                    <li>Github</li> <br/>
                 </ul>
             </div>
         </div>

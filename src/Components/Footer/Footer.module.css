@@ -1,7 +1,7 @@
 .footerContainer {
-    width: 110vw;
+    width: 100vw;
     background-color: #28328c;
-    padding: 48px 0px;
+    padding: 48px 30px;
     color: #fff;
     font-size: 14px;
 }
@@ -17,12 +17,13 @@
 }
 
 .footerItems>div>h3 {
-    margin: 4px 0px;
+    margin: 4px 10px 10px 10px;
     margin-bottom: 4px;
     font-weight: 700;
 }
 
 .footerItems>div>ul {
+    margin: 4px 10px;
     list-style: none;
     margin-bottom: 10px;
 }
