@@ -1,0 +1,31 @@
+
+.consultCard {
+    margin-right: 10px;
+    padding: 30px;
+    width: 180px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.consultCardImgContainer {
+    width: 120px;
+    height: 120px;
+}
+
+.consultCardImgContainer img {
+    width: 100%;
+}
+
+.consultCardTitle {
+    margin-top: 12px;
+    color: #414146;
+}
+
+.consultCardConsultnow {
+    margin-top: 10px;
+    color: #14bef0;
+    font-size: 12px;
+    line-height: 1.25;
+}

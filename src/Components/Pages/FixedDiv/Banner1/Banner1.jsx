@@ -11,7 +11,7 @@ const ContainerWrapper=styled.div`
 display: none;
 @media all and (max-width:1110px){
   // display: none;
-  width: 82vw;
+  width: 78vw;
   height: fit-content;
   background: linear-gradient(105.21deg,#3743ab 2.85%,#141b56 99.41%);
   border-radius: 32px;

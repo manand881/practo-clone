@@ -1,7 +1,8 @@
 import React from 'react'
+import {UnderConstruction} from '../../UnderConstruction/UnderConstruction'
 
 export const Tests = () => {
   return (
-    <div>Tests</div>
+    <UnderConstruction/>
   )
 }

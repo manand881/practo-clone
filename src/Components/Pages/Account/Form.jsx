@@ -180,7 +180,7 @@ export const Form = ({formtype}) => {
                 headers:{
                     "content-type":"application/json"
                 }
-            }).then((res)=>dispatch(getUsersData()))
+            }).then((res)=> {alert("Successful"); navigate("/account/login"); dispatch(getUsersData())});
         }
         else{
             dispatch(getUsersData());

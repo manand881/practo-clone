@@ -11,16 +11,32 @@ margin-top: 50px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
+background-color: white;
+@media all and (max-width: 830px)
+{
+  justify-content: space-around;
+  gap: 20px;
+}
 `
 export const Container3Grid = () => {
   
   return (
     <GridWrapper>
+      <div className="a">
       <Container3Box url={url1} heading="Instant Video Consultantion" desc="Connect within 60secs" color="#AFCFED" link="consult"/>
+      </div>
+      <div className='b'>
       <Container3Box url={url2} heading="Find Doctors Near You" desc="Confirmed appointments" color="#98CBD6" link="doctors"/>
-      <Container3Box url={url3} heading="Medicines" desc="Essentials at your doorsteps" color="#CCD0DB" link="medicines"/>
-      <Container3Box url={url4} heading="Lab Tests" desc="Sample pickup at your home" color="#AFCFED" link="tests"/>
-      <Container3Box url={url5} heading="Surgeries" desc="Safe and trusted surgery centers" color="#D5D8FC" link="care"/>
+      </div>
+      <div className='c'>
+      <Container3Box url={url3} heading="Medicines" desc="Essentials at your doorsteps" color="#CCD0DB" link="medicines" boxNo="c"/>
+      </div>
+      <div className='d'>
+      <Container3Box url={url4} heading="Lab Tests" desc="Sample pickup at your home" color="#AFCFED" link="tests" boxNo="d"/>
+      </div>
+      <div className='e'>
+      <Container3Box url={url5} heading="Surgeries" desc="Safe and trusted surgery centers" color="#D5D8FC" link="care" boxNo="e"/>
+      </div>
     </GridWrapper>
   )
 }

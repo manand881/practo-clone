@@ -1,7 +1,7 @@
 import React from 'react'
-
+import {UnderConstruction} from '../../UnderConstruction/UnderConstruction'
 export const Consult = () => {
   return (
-    <div>Consult</div>
+    <UnderConstruction/>
   )
 }
