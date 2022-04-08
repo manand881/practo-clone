@@ -1,0 +1,60 @@
+.font {
+    font-family: Camphor, Helvetica, Arial, sans-serif !important;
+}
+
+.phoneinput {
+    border: 1px solid #d7d7e0;
+}
+
+.p15 {
+    padding: 1rem;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.enterphone {
+    opacity: 0.5;
+}
+
+.match-height {
+    height: 100%;
+    margin: 0 20px;
+
+}
+
+.bluebutton {
+    background-color: #14bef0;
+}
+
+.store {
+    width: 130px;
+    height: 40px;
+}
+
+.max-436 {
+    max-width: 436px;
+}
+.max-332 {
+    max-height: 332px;
+}
+
+.header {
+    font-size: 32px;
+}
+
+.u-font--16 {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.background-color-f8{
+    background-color: #F8F8FB;
+}
+#downloadapp{
+    all: initial; /* blocking inheritance for all properties */
+  }
