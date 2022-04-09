@@ -8,8 +8,6 @@
     background-size: cover;
 }
 
-
-
 .lead {
     font-family: raleway;
     font-weight: 100;
@@ -52,12 +50,6 @@
     margin: 0px !important;
 }
 
-
-
-
-
-
-
 .input {
     writing-mode: horizontal-tb !important;
     text-rendering: auto;
@@ -81,7 +73,6 @@
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
 }
-
 
 .min-50 {
     min-height: 50px;
@@ -114,4 +105,32 @@
     font-size: 14px;
     text-decoration: none;
     line-height: 28px;
+}
+
+.light-grey {
+    background-color: #F0F0F5 !important;
+}
+
+.big {
+    color: rgb(65, 65, 70);
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.big700 {
+    color: rgb(65, 65, 70);
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.liitem{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color:rgb(120, 120, 135);
+    opacity: 0.8;
+}
+.nonelist{
+    list-style: none
 }

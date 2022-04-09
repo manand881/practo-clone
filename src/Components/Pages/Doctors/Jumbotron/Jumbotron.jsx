@@ -1,5 +1,6 @@
 import React from 'react'
 import './Jumbotron.css'
+import icon from './security_1.webp'
 
 export const Jumbotron = () => {
 	return (
@@ -85,7 +86,31 @@ export const Jumbotron = () => {
 						</div>
 					</div>
 				</div>
-				<div className="h7000"></div>
+				<div className="h7000 light-grey">
+            <div className="row p-5">
+                <div className="col d-flex justify-content-center ">
+                    <div className="row p-5">
+                        <div className="col p-5">
+                            <p className="font big">Safety of your data is our
+                                <span className="bold big700"><br/>top priority.</span>
+                            </p>
+                            <ul className="nonelist">
+                                <li>
+                                    <p className="liitem font"><span>&#10003;</span> Multi-level security checks</p>
+                                </li>
+                                <li>
+                                    <p className="liitem font"><span>&#10003;</span> Multiple data backups</p>
+                                </li>
+                                <li>
+                                    <p className="liitem font"><span>&#10003;</span> Stringent data privacy policies</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="col p-5"><img src={icon} width="250"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 		</section>
 	)
 }
