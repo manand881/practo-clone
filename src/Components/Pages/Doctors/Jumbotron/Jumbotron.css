@@ -1,0 +1,116 @@
+.imagebackground {
+    background: url("https://www.practostatic.com/web-assets/home/assets/images/homepage.06859593240c3efd483fe48951cfe6ff.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white !important;
+    /* center image */
+    background-position: top;
+}
+
+
+
+.lead {
+    font-family: raleway;
+    font-weight: 100;
+    margin-top: -10px;
+}
+
+.bg-dark-blue {
+    background-color: #28328C !important;
+}
+
+.min-460 {
+    min-height: 460px;
+}
+
+.header-text {
+    font-weight: 700;
+    margin-top: 0px;
+    line-height: 40px;
+    font-size: 40px;
+    box-sizing: border-box
+}
+
+.book-text {
+    font-weight: 700;
+    margin-top: 0px;
+    line-height: 24px;
+    font-size: 24px;
+    box-sizing: border-box
+}
+
+.font {
+    font-family: Camphor, Helvetica, Arial, sans-serif !important;
+}
+
+.padding0 {
+    padding: 0px !important;
+}
+
+.margin0 {
+    margin: 0px !important;
+}
+
+
+
+
+
+
+
+.input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+
+.min-50 {
+    min-height: 50px;
+}
+
+.f14 {
+    font-size: 14;
+}
+
+.f12 {
+    font-size: 12;
+}
+
+.grey-font {
+    color: #8c8c8c;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.h7000 {
+    height: 7000px;
+}
+
+.bg-darkerblue {
+    background-color: #1D2869 !important;
+}
+
+.consult {
+    color: #b8bbd9;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 28px;
+}
