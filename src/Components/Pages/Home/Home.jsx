@@ -6,6 +6,7 @@ import {Footer} from '../../Footer/Footer';
 import styled from 'styled-components';
 import { ResponsiveFooter } from '../../Footer/ResponsiveFooter';
 import { Copyright } from '../../Copyright/Copyright';
+import { HomePage } from './HomePage';
 
 const FooterNonResponsive=styled.div`
 @media all and (max-width: 769px)
@@ -28,6 +29,7 @@ export const Home = () => {
     <div className={style.container}>
       <UpperPart/>
       {/* <MiddlePart/> */}
+      <HomePage />
     </div>
     <FooterNonResponsive>
       <Footer/>
