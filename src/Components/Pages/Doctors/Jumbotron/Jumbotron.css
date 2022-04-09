@@ -5,6 +5,7 @@
     color: white !important;
     /* center image */
     background-position: top;
+    background-size: cover;
 }
 
 

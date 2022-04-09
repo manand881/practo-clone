@@ -4,7 +4,7 @@ import {Jumbotron} from './Jumbotron/Jumbotron.jsx';
 
 export const Doctors = () => {
   return (
-    <div className={style.container}>
+    <div >
       <Jumbotron/>
     </div>
   )
