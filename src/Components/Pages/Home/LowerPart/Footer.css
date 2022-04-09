@@ -1,0 +1,32 @@
+.font {
+    font-family: Camphor, Helvetica, Arial, sans-serif !important;
+}
+
+.px14 {
+    font-size: 13px;
+}
+
+.line-height20 {
+    line-height: 15px;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.background-blue {
+    background-color: #28328C;
+}
+.copyright{
+    color:rgb(184, 187, 217);
+    font-weight: 700;
+    font-size: 14px;
+}
